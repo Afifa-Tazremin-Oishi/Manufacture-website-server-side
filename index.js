@@ -39,7 +39,7 @@ function verifyJWT(req, res, next) {
 
         else {
             req.decoded = decoded;
-            // console.log(decoded);
+            
             next();
         }
     })
@@ -99,8 +99,6 @@ async function run() {
 
 
 
-        /* ----- USERS COLLECTION API ----- 
-        -----------------------------------*/
 
 
 
